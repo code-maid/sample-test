@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en" mode="ios">
+
+<head>
+  <title> Arasaka Market </title>
+  <base href="/" />
+  <meta charset="utf-8" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0,
+      minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css" />
+</head>
+
+<body class="dark">
+  <ion-app>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title style="font-size: 40px; padding: 10px">Arasaka Shop</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Best implants for your money</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content id="page2" class="ion-padding" style="display: none;">
+      <ion-button size="small" id="history_back">Назад</ion-button>
+      <div class="container-v2" id="page2_launch_system" style="display: none;">
+        <ion-card style="margin-left: 300px; margin-right: 300px;">
+          <img src="launch-system.png" style="height: 690px;" />
+          <ion-item>
+            <ion-icon name="shield-outline" slot="start"></ion-icon>
+            <ion-label>
+              Projectile Launch System
+            </ion-label>
+            <ion-badge slot="end" style="font-size: 18px;">7.950.000 Р</ion-badge>
+            <ion-button slot="end" style="font-size: 18px;">Купить</ion-button>
+          </ion-item>
+
+          <ion-card-content>
+            Эти импланты для рук позволяют запускать снаряды из предплечья.
+            <br>
+            Она способна умно нацеливаться на врагов при использовании в сочетании с имплантатом SmartLink™.
+            <br>
+            Пусковая установка снарядов позволяет выпускать различные мощные снаряды, наносящие различные виды урона, а также вызывающие взрывы и применяющие статусные эффекты. 
+            <br>
+            Но самое главное, это сеет хаос и разрушения.
+            <br>
+            <br>
+
+            <ion-badge style="font-size: 18px;">Поддержка Realskinn™</ion-badge>
+            <ion-badge style="font-size: 18px;">Поддержка SmartLink™</ion-badge>
+            <ion-badge style="font-size: 18px;">Поддержка балистических сопроцессоров</ion-badge>
+            <ion-badge style="font-size: 18px;">Гарантия 12 месяцев</ion-badge>
+          </ion-card-content>
+        </ion-card>
+      </div>
+      <!-- Mantis Blades -->
+      <div class="container-v2" id="page2_mantis_blade" style="display: none;">
+        <ion-card style="margin-left: 300px; margin-right: 300px;">
+          <img src="mantis-blades.png" style="height: 690px;" />
+          <ion-item>
+            <ion-icon name="shield-outline" slot="start"></ion-icon>
+            <ion-label>
+              Mantis Blades
+            </ion-label>
+            <ion-badge slot="end" style="font-size: 18px;">18.250.000 Р</ion-badge>
+            <ion-button slot="end" style="font-size: 18px;">Купить</ion-button>
+          </ion-item>
+
+          <ion-card-content>
+            Лезвия Богомола состоят из двух одновременно имплантированных лезвий. 
+            <br>
+            По одному лезвию устанавливается в каждое предплечье и остается втянутым до использования. 
+            <br>
+            В вытянутом состоянии форма лезвия богомола напоминает передние лапы его тезки.
+            <br>
+            Идеально подходит для тех, кто ставит личную безопасность на первое место, не говоря уже о сдержанности.
+            <br>
+            <br>
+
+            <ion-badge style="font-size: 18px;">Поддержка синаптического ускорителя SConductor™</ion-badge>
+            <ion-badge style="font-size: 18px;">Поддержка Realskinn™</ion-badge>
+            <ion-badge style="font-size: 18px;">Plug&Play установка</ion-badge>
+            <ion-badge style="font-size: 18px;">Сплав адамантия и иридия</ion-badge>
+            <ion-badge style="font-size: 18px;">Гарантия 12 месяца</ion-badge>
+          </ion-card-content>
+        </ion-card>
+      </div>
+      <!-- Gorrila Arms -->
+      <div class="container-v2" id="page2_gorrila" style="display: none;">
+        <ion-card style="margin-left: 300px; margin-right: 300px;">
+          <img src="gorilla-arms.png" style="height: 690px;" />
+          <ion-item>
+            <ion-icon name="shield-outline" slot="start"></ion-icon>
+            <ion-label>
+              Gorrila Arms
+            </ion-label>
+            <ion-badge slot="end" style="font-size: 18px;">12.750.000 Р</ion-badge>
+            <ion-button slot="end" style="font-size: 18px;">Купить</ion-button>
+          </ion-item>
+
+          <ion-card-content>
+            Классические и надежные заменители натуральных конечностей, подходящие для всех видов каторжных работ
+            <br>
+            Некоторые из первых широко распространенных имплантов заменили руки ручного труда на запасные,
+            приводимые в действие поршнями и гидравликой,
+            чтобы они могли поднимать более тяжелые грузы.
+            <br>
+
+            Имеют синаптические соединения в реальном времени 1:1, которые работают так быстро, как пользователь может
+            думать.
+            <br>
+            Вместо механических приводов их сила теперь исходит от синтетических мышц,
+            <br>
+            изготовленных из активируемых электрическим полем сплавов с памятью формы, которые легко вписываются в
+            обычный профиль вашей руки.
+            <br>
+            Нанесите сверху слой Realskinn, и никто не узнает, что вы можете открывать закрытые двери, как будто они
+            сделаны из бумаги
+            <br>
+            <br>
+
+            <ion-badge style="font-size: 18px;">Поддержка синаптического ускорителя SConductor™</ion-badge>
+            <ion-badge style="font-size: 18px;">Поддержка протокола нейрореле</ion-badge>
+            <ion-badge style="font-size: 18px;">Поддержка Realskinn™</ion-badge>
+            <ion-badge style="font-size: 18px;">Plug&Play установка</ion-badge>
+            <ion-badge style="font-size: 18px;">Сплав титано-ферстали</ion-badge>
+            <ion-badge style="font-size: 18px;">Гарантия 24 месяца</ion-badge>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-content>
+
+
+    <ion-content id="page3" class="ion-padding" style="display: none;">
+      <ion-button size="small" id="history_back2">Назад</ion-button>
+      <div class="container-v2">
+        <ion-card >
+          <ion-label style="font-size: 25px; text-align: center;">
+            <div>
+              Contact us
+            </div>
+          </ion-label>
+          <img src="araka.icon.jpg" style="height: 690px;" />
+          <ion-item>
+            <ion-label>
+              The Arasaka Corporation
+            </ion-label>
+          </ion-item>
+
+          <ion-card-content>
+            Is a world-wide megacorporation dealing in corporate security, banking and manufactoring
+            <br>
+            <ion-badge color="danger" style="font-size: 18px;">EMail: sales@arasaka.corp </ion-badge>
+            <br>
+            <ion-badge color="danger" style="font-size: 18px;">Phone: +81 81 9999 9973</ion-badge>
+          </ion-card-content>
+        </ion-card>
+      </div>
+    </ion-content>
+
+    <ion-content id="page1" class="ion-padding" style="display: unset;">
+
+      <div class="container">
+        <input type="radio" name="slider" id="item-1" checked>
+        <input type="radio" name="slider" id="item-2">
+        <input type="radio" name="slider" id="item-3">
+        <div class="cards">
+          <label class="card" for="item-1" id="song-1">
+            <img src="gorilla-arms.png" alt="song">
+          </label>
+          <label class="card" for="item-2" id="song-2">
+            <img src="launch-system.png" alt="song">
+          </label>
+          <label class="card" for="item-3" id="song-3">
+            <img src="mantis-blades.png" alt="song">
+          </label>
+        </div>
+        <div class="player" style="text-align: center;">
+          <div class="upper-part">
+            <div class="info-area" id="test">
+              <label class="song-info" id="song-info-1">
+                <div class="title">Gorilla Arms</div>
+                <div class="sub-line">
+                  <div class="subtitle">Bioware for arms</div>
+                </div>
+              </label>
+              <label class="song-info" id="song-info-2">
+                <div class="title">Launch System</div>
+                <div class="sub-line">
+                  <div class="subtitle">Bioware for arms</div>
+                </div>
+              </label>
+              <label class="song-info" id="song-info-3">
+                <div class="title">Mantis Blades</div>
+                <div class="sub-line">
+                  <div class="subtitle">Bioware for arms</div>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <ion-card>
+        <ion-item>
+          <ion-label style="text-align: center; font-size: 19px">
+            Мы стремимся, чтобы 100% людей ежедневно пользовались доступными
+            <br />
+            функциональными имплантами с высоким уровнем сервиса, делая свою
+            жизнь удобнее, ярче и счастливее.
+            <br />
+            Наши биомеханические устройства, предназначены для замены
+            <br>
+            поврежденных и больных частей тела, улучшения его возможностей и
+            <br>
+            силы, а также в некоторых случаях продления жизни.
+          </ion-label>
+          <ion-button fill="outline" slot="end" id="contact-us-left">Contact us</ion-button>
+        </ion-item>
+      </ion-card>
+
+
+      <!--    <ion-grid>
+                    <ion-row>
+                      <ion-col>
+                        <ion-card>
+                            <img src="gorilla-arms.png">
+                            <ion-card-header>
+                              <ion-card-subtitle>Gorilla Arms</ion-card-subtitle>
+                              
+                              <ion-card-title>Card Title</ion-card-title>
+                            </ion-card-header>
+                            
+                            <ion-card-content>
+                              Keep close to Nature's heart... and break clear away, once in awhile,
+                              and climb a mountain or spend a week in the woods. Wash your spirit clean.
+                            </ion-card-content>
+                          </ion-card>
+                      </ion-col>
+                      <ion-col>
+                        <ion-card>
+                            <img src="launch-system.png">
+                            <ion-card-header>
+                              <ion-card-subtitle>Launch System</ion-card-subtitle>
+                              
+                              <ion-card-title>Card Title</ion-card-title>
+                            </ion-card-header>
+                            
+                            <ion-card-content>
+                              Keep close to Nature's heart... and break clear away, once in awhile,
+                              and climb a mountain or spend a week in the woods. Wash your spirit clean.
+                            </ion-card-content>
+                          </ion-card>
+                      </ion-col>
+                      <ion-col>
+                        <ion-card>
+                            <img src="mantis-blades.png">
+                            <ion-card-header>
+                              <ion-card-subtitle>Mantis Blades</ion-card-subtitle>
+                              
+                              <ion-card-title>Card Title</ion-card-title>
+                            </ion-card-header>
+                            
+                            <ion-card-content>
+                              Keep close to Nature's heart... and break clear away, once in awhile,
+                              and climb a mountain or spend a week in the woods. Wash your spirit clean.
+                            </ion-card-content>
+                          </ion-card>
+                      </ion-col>
+                    </ion-row>
+                </ion-grid> -->
+    </ion-content>
+
+
+    <ion-footer class="ion-no-border">
+      <ion-toolbar>
+        <ion-title>
+          Arasaka Shop (C) 1915-2065 - All rights reserved
+          <br>
+          <a id="contact-us">Contact us</a>
+        </ion-title>
+      </ion-toolbar>
+    </ion-footer>
+  </ion-app>
+
+  <script>
+    let page1 = document.querySelector("#page1");
+    let page2 = document.querySelector("#page2");
+    let page3 = document.querySelector("#page3");
+
+    let page2_ls = document.querySelector("#page2_launch_system");
+    let page2_ga = document.querySelector("#page2_gorrila");
+    let page2_mb = document.querySelector("#page2_mantis_blade");
+
+    let index = 1;
+    let item1 = document.querySelector(`#item-1`);
+    let item2 = document.querySelector(`#item-2`);
+    let item3 = document.querySelector(`#item-3`);
+    setInterval(() => {
+      if (item1.matches(":hover") || item2.matches(":hover") || item3.matches(":hover")) {
+        console.log("carusel is hovered by mouse, skip switch elemets.");
+        return;
+      }
+
+      document.querySelector(`#item-${index}`).checked = true;
+      index++;
+      // overflow check
+      if (index >= 4) index = 1;
+    }, 2400);
+    
+    document.querySelector("#history_back2").onmousedown = 
+    document.querySelector("#history_back").onmousedown = function () {
+      console.log("BACK");
+      page1.style.display = 'unset';
+      page2.style.display = 'none';
+      page3.style.display = 'none';
+      page2_ga.style.display = 'none';
+      page2_ls.style.display = 'none';
+      page2_mb.style.display = 'none';
+    };
+
+    document.querySelector("#contact-us-left").onmousedown =
+    document.querySelector("#contact-us").onmousedown = function() {
+      page1.style.display = 'none';
+      page2.style.display = 'none';
+      page3.style.display = 'unset';
+      page2_ga.style.display = 'none';
+      page2_ls.style.display = 'none';
+      page2_mb.style.display = 'none';
+    }
+
+    document.querySelector(`#song-1`).onmousedown = function () {
+      if (!item1.checked) return;
+      console.log("User moused down for 1 item");
+      page1.style.display = 'none';
+      page2.style.display = 'unset';
+      page3.style.display = 'none';
+      page2_ga.style.display = 'unset';
+      page2_ls.style.display = 'none';
+      page2_mb.style.display = 'none';
+      return true;
+    };
+    document.querySelector(`#song-2`).onmousedown = function () {
+      if (!item2.checked) return;
+      console.log("User moused down for 2 item");
+      page1.style.display = 'none';
+      page2.style.display = 'unset';
+      page3.style.display = 'none';
+      page2_ga.style.display = 'none';
+      page2_ls.style.display = 'unset';
+      page2_mb.style.display = 'none';
+      return true;
+    };
+    document.querySelector(`#song-3`).onmousedown = function () {
+      if (!item3.checked) return;
+      console.log("User moused down for 3 item");
+      page1.style.display = 'none';
+      page2.style.display = 'unset';
+      page3.style.display = 'none';
+      page2_ls.style.display = 'none';
+      page2_ga.style.display = 'none';
+      page2_mb.style.display = 'unset';
+      return true;
+    };
+  </script>
+
+  <style>
+    ion-grid {
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    ion-card>img {
+      width: 100%;
+      height: 290px;
+      object-fit: cover;
+    }
+  </style>
+  <style>
+    @import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px 10px;
+      font-family: "DM Sans", sans-serif;
+      transition: background 0.4s ease-in;
+      background-color: #c394f8;
+    }
+
+    body.blue {
+      background-color: #428aa6;
+    }
+
+    input[type=radio] {
+      display: none;
+    }
+
+    .card {
+      position: absolute;
+      width: 60%;
+      height: 100%;
+      left: 0;
+      right: 0;
+      margin: auto;
+      transition: transform 0.4s ease;
+      cursor: pointer;
+    }
+
+    .container {
+      width: 100%;
+      max-height: 600px;
+      height: 100%;
+      transform-style: preserve-3d;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .container-v2 {
+      width: 100%;
+      padding-left: 200px;
+      padding-right: 200px;
+      height: 100%;
+      transform-style: preserve-3d;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .cards {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      margin-bottom: 20px;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      -o-object-fit: cover;
+      object-fit: cover;
+    }
+
+    #item-1:checked~.cards #song-3,
+    #item-2:checked~.cards #song-1,
+    #item-3:checked~.cards #song-2 {
+      transform: translatex(-40%) scale(0.8);
+      opacity: 0.4;
+      z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-2,
+    #item-2:checked~.cards #song-3,
+    #item-3:checked~.cards #song-1 {
+      transform: translatex(40%) scale(0.8);
+      opacity: 0.4;
+      z-index: 0;
+    }
+
+    #item-1:checked~.cards #song-1,
+    #item-2:checked~.cards #song-2,
+    #item-3:checked~.cards #song-3 {
+      transform: translatex(0) scale(1);
+      opacity: 1;
+      z-index: 1;
+    }
+
+    #item-1:checked~.cards #song-1 img,
+    #item-2:checked~.cards #song-2 img,
+    #item-3:checked~.cards #song-3 img {
+      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+    }
+
+    .player {
+      background-color: #0f0f0f;
+      border-radius: 8px;
+      min-width: 320px;
+      padding: 16px 10px;
+    }
+
+    .upper-part {
+      position: relative;
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      height: 36px;
+      overflow: hidden;
+    }
+
+    .play-icon {
+      margin-right: 10px;
+    }
+
+    .song-info {
+      width: calc(100% - 32px);
+      display: block;
+    }
+
+    .song-info .title {
+      color: #fff;
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    .sub-line {
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    .subtitle,
+    .time {
+      font-size: 12px;
+      line-height: 16px;
+      color: #c6c5c6;
+    }
+
+    .time {
+      font-size: 12px;
+      line-height: 16px;
+      color: #a5a5a5;
+      font-weight: 500;
+      margin-left: auto;
+    }
+
+    .progress-bar {
+      height: 3px;
+      width: 100%;
+      background-color: #e9efff;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .progress {
+      display: block;
+      position: relative;
+      width: 60%;
+      height: 100%;
+      background-color: #2992dc;
+      border-radius: 6px;
+    }
+
+    .info-area {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 20px;
+      transition: transform 0.4s ease-in;
+    }
+
+    #item-2:checked~.player #test {
+      transform: translateY(0);
+    }
+
+    #item-2:checked~.player #test {
+      transform: translateY(-40px);
+    }
+
+    #item-3:checked~.player #test {
+      transform: translateY(-80px);
+    }
+  </style>
+  <style>
+    /*
+ * Dark Colors
+ * ------------------
+ */
+
+    body.dark {
+      --ion-color-primary: #428cff;
+      --ion-color-primary-rgb: 66, 140, 255;
+      --ion-color-primary-contrast: #ffffff;
+      --ion-color-primary-contrast-rgb: 255, 255, 255;
+      --ion-color-primary-shade: #3a7be0;
+      --ion-color-primary-tint: #5598ff;
+
+      --ion-color-secondary: #50c8ff;
+      --ion-color-secondary-rgb: 80, 200, 255;
+      --ion-color-secondary-contrast: #ffffff;
+      --ion-color-secondary-contrast-rgb: 255, 255, 255;
+      --ion-color-secondary-shade: #46b0e0;
+      --ion-color-secondary-tint: #62ceff;
+
+      --ion-color-tertiary: #6a64ff;
+      --ion-color-tertiary-rgb: 106, 100, 255;
+      --ion-color-tertiary-contrast: #ffffff;
+      --ion-color-tertiary-contrast-rgb: 255, 255, 255;
+      --ion-color-tertiary-shade: #5d58e0;
+      --ion-color-tertiary-tint: #7974ff;
+
+      --ion-color-success: #2fdf75;
+      --ion-color-success-rgb: 47, 223, 117;
+      --ion-color-success-contrast: #000000;
+      --ion-color-success-contrast-rgb: 0, 0, 0;
+      --ion-color-success-shade: #29c467;
+      --ion-color-success-tint: #44e283;
+
+      --ion-color-warning: #ffd534;
+      --ion-color-warning-rgb: 255, 213, 52;
+      --ion-color-warning-contrast: #000000;
+      --ion-color-warning-contrast-rgb: 0, 0, 0;
+      --ion-color-warning-shade: #e0bb2e;
+      --ion-color-warning-tint: #ffd948;
+
+      --ion-color-danger: #ff4961;
+      --ion-color-danger-rgb: 255, 73, 97;
+      --ion-color-danger-contrast: #ffffff;
+      --ion-color-danger-contrast-rgb: 255, 255, 255;
+      --ion-color-danger-shade: #e04055;
+      --ion-color-danger-tint: #ff5b71;
+
+      --ion-color-dark: #f4f5f8;
+      --ion-color-dark-rgb: 244, 245, 248;
+      --ion-color-dark-contrast: #000000;
+      --ion-color-dark-contrast-rgb: 0, 0, 0;
+      --ion-color-dark-shade: #d7d8da;
+      --ion-color-dark-tint: #f5f6f9;
+
+      --ion-color-medium: #989aa2;
+      --ion-color-medium-rgb: 152, 154, 162;
+      --ion-color-medium-contrast: #000000;
+      --ion-color-medium-contrast-rgb: 0, 0, 0;
+      --ion-color-medium-shade: #86888f;
+      --ion-color-medium-tint: #a2a4ab;
+
+      --ion-color-light: #222428;
+      --ion-color-light-rgb: 34, 36, 40;
+      --ion-color-light-contrast: #ffffff;
+      --ion-color-light-contrast-rgb: 255, 255, 255;
+      --ion-color-light-shade: #1e2023;
+      --ion-color-light-tint: #383a3e;
+    }
+
+    /*
+ * iOS Dark Theme
+ * -------------------
+ */
+
+    .ios body.dark {
+      --ion-background-color: #000000;
+      --ion-background-color-rgb: 0, 0, 0;
+
+      --ion-text-color: #ffffff;
+      --ion-text-color-rgb: 255, 255, 255;
+
+      --ion-color-step-50: #0d0d0d;
+      --ion-color-step-100: #1a1a1a;
+      --ion-color-step-150: #262626;
+      --ion-color-step-200: #333333;
+      --ion-color-step-250: #404040;
+      --ion-color-step-300: #4d4d4d;
+      --ion-color-step-350: #595959;
+      --ion-color-step-400: #666666;
+      --ion-color-step-450: #737373;
+      --ion-color-step-500: #808080;
+      --ion-color-step-550: #8c8c8c;
+      --ion-color-step-600: #999999;
+      --ion-color-step-650: #a6a6a6;
+      --ion-color-step-700: #b3b3b3;
+      --ion-color-step-750: #bfbfbf;
+      --ion-color-step-800: #cccccc;
+      --ion-color-step-850: #d9d9d9;
+      --ion-color-step-900: #e6e6e6;
+      --ion-color-step-950: #f2f2f2;
+
+      --ion-toolbar-background: #0d0d0d;
+
+      --ion-item-background: #1c1c1c;
+      --ion-item-background-activated: #313131;
+    }
+
+    /*
+ * Material Design Dark Theme
+ * ------------------------------
+ */
+
+    .md body.dark {
+      --ion-background-color: #121212;
+      --ion-background-color-rgb: 18, 18, 18;
+
+      --ion-text-color: #ffffff;
+      --ion-text-color-rgb: 255, 255, 255;
+
+      --ion-border-color: #222222;
+
+      --ion-color-step-50: #1e1e1e;
+      --ion-color-step-100: #2a2a2a;
+      --ion-color-step-150: #363636;
+      --ion-color-step-200: #414141;
+      --ion-color-step-250: #4d4d4d;
+      --ion-color-step-300: #595959;
+      --ion-color-step-350: #656565;
+      --ion-color-step-400: #717171;
+      --ion-color-step-450: #7d7d7d;
+      --ion-color-step-500: #898989;
+      --ion-color-step-550: #949494;
+      --ion-color-step-600: #a0a0a0;
+      --ion-color-step-650: #acacac;
+      --ion-color-step-700: #b8b8b8;
+      --ion-color-step-750: #c4c4c4;
+      --ion-color-step-800: #d0d0d0;
+      --ion-color-step-850: #dbdbdb;
+      --ion-color-step-900: #e7e7e7;
+      --ion-color-step-950: #f3f3f3;
+
+      --ion-item-background: #1a1b1e;
+    }
+
+    /* Optional CSS, this is added for the flashing that happens when toggling between themes */
+    ion-item {
+      --transition: none;
+    }
+  </style>
+</body>
+
+</html>
